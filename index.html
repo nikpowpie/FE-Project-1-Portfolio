@@ -1,112 +1,122 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv"X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikki's Portfolio</title>
-    <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
-    <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
-    <link href='css/style.css' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-   <header class="container-fluid">
-      <div class="row">
-        <div class="col-md-6">
-          <img class="title-logo img-responsive" src="http://placehold.it/100x100" alt="#">
-        </div>
-        <div class="col-md-6 text-right text-uppercase">
-          <h1 class="title-super text-thin">Nikki Pierre</h1>
-          <h4>Front-End Engineer Extraordinaire</h4>
-        </div>
-    </header>
-    <main class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <hr>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikki's Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+  <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  <link href='css/style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="title-logo img-responsive" src="http://placehold.it/100x100" alt="#">
+      </div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="title-super text-thin">Nikki Pierre</h1>
+        <h4>Front-End Engineer Extraordinaire</h4>
+      </div>
+    </div>
+  </header>
+  <main class="container-fluid">
+    <!--Row for Horizontal Rule-->
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </div>
+    <!--Row for Hero Image-->
+    <div class="row">
+      <div class="col-md-12">
+        <img class="main-image img-responsive" src="images/guanajato.jpg" alt="the Guanajuato, Mexico skyline">
+      </div>
+    </div>
+    <!--Row for Featured Work Text-->
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-muted">Featured Work</h2>
+      </div>
+    </div>
+    <!--Section for Row of Three images across-->
+    <section class="row text-center">
+      <!--Buenos Aires-->
+      <div class="col-md-4" data-toggle="modal" data-target="#modalOne">
+        <img class="img-responsive center-block" src="images/steak.jpg" alt="picture of Argentinian steak">
+        <h3 class="text-uppercase">Argentina</h3>
+        <p><a href="http://www.lonelyplanet.com/argentina" target="_blank">http://www.lonelyplanet.com/argentina</a></p>
+      </div>
+      <!--Modal ONE-->
+      <div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="myModal1">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModal1">the Beautiful Buenos Aires...</h4>
+            </div>
+            <div class="modal-body">
+              <p>I don't have any great projects to put here yet, so I'll just fill it with places I've been. The first place I want to mention, is Buenos Aires, Argentina. It's a beautiful city, with good food, particularly steak.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <img class="main-image" class="img-responsive" src="images/guanajato.jpg" alt="the Guanajuato, Mexico skyline">
+      <!--Mexico-->
+      <div class="col-md-4" data-toggle="modal" data-target="#modalTwo">
+        <img class="img-responsive center-block" src="images/heart.jpg" alt="picture of historic heart painted wall in Guanajuato">
+        <h3 class="text-uppercase">Mexico</h3>
+        <p><a href="http://www.lonelyplanet.com/mexico" target="_blank">http://www.lonelyplanet.com/mexico</a></p>
+      </div>
+      <!--Modal TWO-->
+      <div class="modal fade" id="modalTwo" tabindex="-1" role="dialog" aria-labelledby="myModal2">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModal2">the Historic Guanajato...</h4>
+            </div>
+            <div class="modal-body">
+              <p>Guanajuato, Mexico is full of intriguing historic sites, that include churches with beautiful architectural details and a museum dedicated to the artistic work of the great painter, Diego Rivera.</p>
+            </div>
+            <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
       </div>
-     <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-muted">Featured Work</h2>
-        </div>
-       </div>
-      <section class="row text-center">
-        <!-- Buenos Aires -->
-        <div class="col-md-4" data-toggle="modal" data-target="#modalOne">
-          <img class="img-responsive"src="images/steak.jpg" alt="picture of Argentinian steak">
-          <h3 class="text-uppercase">Argentina</h3>
-          <p><a href="http://www.lonelyplanet.com/argentina" target="_blank">http://www.lonelyplanet.com/argentina</a></p>
-        </div>
-        <!-- Modal ONE -->
-          <div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">the Beautiful Buenos Aires...</h4>
-                </div>
-                <div class="modal-body">I don't have any great projects to put here yet, so I'll just fill it with places I've been. The first place I want to mention, is Buenos Aires, Argentina. It's a beautiful city, with good food, particularly steak.</div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-             </div>
+      <!--Bahamas-->
+      <div class="col-md-4" data-toggle="modal" data-target="#modalThree">
+        <img class="img-responsive center-block" src="images/beach.jpg" alt="picture of Nasau beach">
+        <h3 class="text-uppercase">Bahamas</h3>
+        <p><a href="http://www.lonelyplanet.com/the-bahamas" target="_blank">http://www.lonelyplanet.com/the-bahamas</a></p>
+      </div>
+      <!--Modal THREE-->
+      <div class="modal fade" id="modalThree" tabindex="-1" role="dialog" aria-labelledby="myModal3">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModal3">the Sunny Nasau...</h4>
+            </div>
+            <div class="modal-body">
+              <p>Nasau, Bahamas is known for it's beaches and coral reefs. The blue waves and white sands are paradise on earth. Here, there is an abundance of kind island people and fresh seafood.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
-        <!-- Mexico -->
-        <div class="col-md-4" data-toggle="modal" data-target="#modalTwo">
-          <img class="img-responsive"src="images/heart.jpg" alt="picture of historic heart painted wall in Guanajuato">
-          <h3 class="text-uppercase">Mexico</h3>
-          <p><a href="http://www.lonelyplanet.com/mexico" target="_blank">http://www.lonelyplanet.com/mexico</a></p>
         </div>
-        <!-- Modal TWO -->
-          <div class="modal fade" id="modalTwo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4 class="modal-title" id="myModalLabel">the Historic Guanajato...</h4>
-                  </div>
-                  <div class="modal-body">Guanajuato, Mexico is full of intriguing historic sites, that include churches with beautiful architectural details and a museum dedicated to the artistic work of the great painter, Diego Rivera.</div>
-                  <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                 </div>
-             </div>
-            </div>
-          </div>
-        <!-- Bahamas -->
-        <div class="col-md-4" data-toggle="modal" data-target="#modalThree">
-          <img class="img-responsive" src="images/beach.jpg" alt="picture of Nasau beach">
-          <h3 class="text-uppercase">Bahamas</h3>
-          <p><a href="http://www.lonelyplanet.com/the-bahamas" target="_blank">http://www.lonelyplanet.com/the-bahamas</a></p>
-        </div>
-        <!-- Modal THREE -->
-          <div class="modal fade" id="modalThree" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">the Sunny Nasau...</h4>
-                </div>
-                <div class="modal-body">Nasau, Bahamas is known for it's beaches and coral reefs. The blue waves and white sands are paradise on earth. Here, there is an abundance of kind island people and fresh seafood.</div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-             </div>
-            </div>
-          </div>
-      </section>
-      </main>
-      <footer>
+     </div>
+    </section>
+    <footer>
       <hr>
-      <p>&copy; made with love by Nikki Pierre<p>
+      <p>&copy; made by me, Nikki Pierre<p>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/bootstrap.min.js"></script>
-      </footer>
-    </div>
-  </body>
+    </footer>
+  </main>
+</body>
 </html>

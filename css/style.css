@@ -4,10 +4,6 @@ body {
   font-weight: 300;
 }
 
-hr {
-
-}
-
 .text-muted {
   color: #bcbbbb;
 }
@@ -29,11 +25,11 @@ hr {
 /** Hero Image styles **/
 
 .main-image {
-width: 100%;
+  width: 100%;
 }
 
-/** Moda styles **/
+/** Modal styles **/
 
-.modal-content {
-  padding: 50px;
+p.modal-bod {
+  line-height: 1.5em;
 }
